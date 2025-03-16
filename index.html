@@ -6,11 +6,21 @@
 -->
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
+		<title>VIC-Lab</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+<script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    });
+</script>
+
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -20,18 +30,19 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Jane Doe</h1>
-							<p>Hyperspace Engineer</p>
+							<span class="image avatar48"><img src="images/vic-logo5.png" alt="" /></span>
+							<h1 id="title">VIC-LAB</h1>
+							<p>Empowered by Human Intelligence</p>
 						</div>
 
-					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="#research" id="research-link"><span class="icon solid fa-book">Research</span></a></li>
+								<li><a href="#publications" id="publications-link"><span class="icon solid fa-file">Publications</span></a></li>
+								<li><a href="#team" id="team-link"><span class="icon solid fa-users">Team</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<li><a href="#gallery" id="gallery-link"><span class="icon solid fa-images">Gallery</span></a></li>
 							</ul>
 						</nav>
 
@@ -47,9 +58,7 @@
 							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
-
 				</div>
-
 			</div>
 
 		<!-- Main -->
@@ -60,139 +69,302 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<h2 class="alt">Vision and Intelligent Computing Lab</h2>
+								<p>Department of Electrical Engineering (Program B)<br />
+								Yuan Ze University</p>
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<!-- <a href="#portfolio" class="button scrolly">Magna Aliquam</a> -->
 							</footer>
 
 						</div>
 					</section>
 
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
+		<!-- Research -->
+				<section id="research" class="two">
+    <div class="container">
+        <header>
+            <h2>Research</h2>
+        </header>
+        <p>The Vision and Intelligent Computing (VIC) Lab is a research laboratory under the 
+            Department of Electrical Engineering, specializing in Computer Vision, Multimedia, 
+            Artificial Intelligence, and Intelligent Computing. Our research spans image, video, 
+            and audio processing, with applications in Deep Learning, Object Recognition, 
+            Multimedia Processing, and Computer Vision.</p>
 
-							<header>
-								<h2>Portfolio</h2>
-							</header>
+        <!-- Current Research -->
+        <div class="research-category">
+            <h3>Current Projects</h3>
+            <ul class="research-list">
+                <li>🔹 <strong>Using deep learning technology for intelligent analysis and interpretation of carbon storage and earthquake faults</strong> – Under grant NSTC 114-2222-E-155-004 (PI)</li>
+                <li>🔹 <strong>AGRI-TECT: Integrating agricultural thermoelectric plant leaf patches through the Internet of Things to monitor plant 
+					pathogen resistance and build a smart agriculture decision support system</strong> – Under grant NSTC 114-2923-E-008 -003 -MY3 (Co-PI)</li>
+            </ul>
+        </div>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+        <!-- Research Topics with Images -->
+        <div class="row">
+            <div class="col-4 col-12-mobile">
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/seismic1.jpg" alt="" /></a>
+                    <header>
+                        <h3>Seismology Analysis and Interpretation</h3>
+                    </header>
+                </article>
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/coffee.png" alt="" /></a>
+                    <header>
+                        <h3>AI for Agriculture</h3>
+                    </header>
+                </article>
+            </div>
+            <div class="col-4 col-12-mobile">
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/brain.png" alt="" /></a>
+                    <header>
+                        <h3>Alzheimer's Disease Analysis</h3>
+                    </header>
+                </article>
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/sang.png" alt="" /></a>
+                    <header>
+                        <h3>xAI in Medical Imaging</h3>
+                    </header>
+                </article>
+            </div>
+            <div class="col-4 col-12-mobile">
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/sound.jpg" alt="" /></a>
+                    <header>
+                        <h3>Video Surveilance</h3>
+                    </header>
+                </article>
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/vic-logo5.png" alt="" /></a>
+                    <header>
+                        <h3>Design</h3>
+                    </header>
+                </article>
+            </div>
+        </div>
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>Ipsum Feugiat</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
-								</div>
-							</div>
+    </div>
+				</section>
 
-						</div>
+				<!-- Publications -->
+					<section id="publications" class="three">
+    <div class="container">
+        <header>
+            <h2>Publications</h2>
+        </header>
+
+        <!-- Journals -->
+        <div class="publication-category">
+            <h3>Journals</h3>
+            <ul class="publication-list">
+                <li><strong>Deep Learning for Seismic Imaging</strong> - Isack F. et al. (2024) <a href="link-to-paper">[Read More]</a></li>
+                <li><strong>AI for Green Energy</strong> - Isack F. et al. (2022) <a href="link-to-paper">[Read More]</a></li>
+            </ul>
+        </div>
+
+        <!-- Conferences -->
+        <div class="publication-category">
+            <h3>Conferences</h3>
+            <ul class="publication-list">
+                <li><strong>AI for Player Movement in Badminton</strong> - Isack F. et al. (2023) <a href="link-to-paper">[Read More]</a></li>
+                <li><strong>Advanced Deep Learning for Multimedia Analysis</strong> - Isack F. et al. (2021) <a href="link-to-paper">[Read More]</a></li>
+            </ul>
+        </div>
+    </div>
 					</section>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
+				<!-- Team -->
+					<section id="team" class="three">
+    <div class="container">
+        <header>
+            <h2>Our Team</h2>
+        </header>
+        <p>Meet the researchers at VIC-Lab.</p>
 
-							<header>
-								<h2>About Me</h2>
-							</header>
+        <!-- Director -->
+		<div class="team-category">
+    <!-- <h3>Director</h3> -->
+			<div class="row center">
+				<div class="col-12 team-member director">
+					<article class="item">
+						<img src="images/actor2.jpeg" alt="Dr. Isack Farady" class="team-photo">
+						<h3>Isack Farady Ph.D.</h3>
+						<p>Lab Director</p>
+					</article>
+				</div>
+			</div>
+		</div>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+        <!-- Graduate Students -->
+        <div class="team-category">
+            <h3>Graduate Students</h3>
+            <div class="row">
+                <div class="col-4 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor1.jpeg" alt="Graduate Student 1" class="team-photo">
+                        <h3>Student 1</h3>
+                        <p>Research Area: Deep Learning in Seismology</p>
+                    </article>
+                </div>
+                <div class="col-4 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor3.jpeg" alt="Graduate Student 2" class="team-photo">
+                        <h3>Student 2</h3>
+                        <p>Research Area: AI for Multimedia Processing</p>
+                    </article>
+                </div>
+                <div class="col-4 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor4.jpeg" alt="Graduate Student 3" class="team-photo">
+                        <h3>Student 3</h3>
+                        <p>Research Area: AI in Computer Vision</p>
+                    </article>
+                </div>
+            </div>
+        </div>
 
-						</div>
+        <!-- Undergraduate Students -->
+        <div class="team-category">
+            <h3>Undergraduate Students</h3>
+            <div class="row">
+                <div class="col-3 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor6.png" alt="Undergraduate Student 1" class="team-photo">
+                        <h3>Student 1</h3>
+                    </article>
+                </div>
+                <div class="col-3 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor7.jpg" alt="Undergraduate Student 2" class="team-photo">
+                        <h3>Student 2</h3>
+                    </article>
+                </div>
+                <div class="col-3 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor8.jpg" alt="Undergraduate Student 3" class="team-photo">
+                        <h3>Student 3</h3>
+                    </article>
+                </div>
+                <div class="col-3 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor9.jpeg" alt="Undergraduate Student 4" class="team-photo">
+                        <h3>Student 4</h3>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <!-- Internship Students -->
+        <div class="team-category">
+            <h3>Internship</h3>
+            <div class="row">
+                <div class="col-4 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor11.jpeg" alt="Internship Student 1" class="team-photo">
+                        <h3>Intern 1</h3>
+                    </article>
+                </div>
+                <div class="col-4 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor12.jpeg" alt="Internship Student 2" class="team-photo">
+                        <h3>Intern 2</h3>
+                    </article>
+                </div>
+                <div class="col-4 col-12-mobile team-member">
+                    <article class="item">
+                        <img src="images/actor10.jpeg" alt="Internship Student 3" class="team-photo">
+                        <h3>Intern 3</h3>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+    </div>
 					</section>
 
 				<!-- Contact -->
 					<section id="contact" class="four">
-						<div class="container">
+					<div class="container">
+						<header>
+							<h2>Contact Us</h2>
+						</header>
+						<p>📧 Email: <a href="mailto:contact@vise-lab.org">vicianteams@gmail.com</a></p>
+						<p>📍 Location: Building 7 R70935, Department of Electrical Engineering, Yuan Ze University, Taiwan</p>
+						<p>🔗 GitHub: <a href="https://github.com/vicyzu" target="_blank">vicyzu</a></p>
+					</div>
+					</section>
 
-							<header>
-								<h2>Contact</h2>
-							</header>
+				<!-- Gallery -->
+					<section id="gallery" class="two">
+    <div class="container">
+        <header>
+            <h2>Gallery</h2>
+        </header>
+        <p>Explore our research, lab activities, and AI visualizations.</p>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+        <div class="row">
+            <div class="col-4 col-12-mobile">
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/award.jpg" alt="Lab Research 1" /></a>
+                    <header>
+                        <h3>Industry-academia Collaboration</h3>
+                    </header>
+                </article>
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/award2.jpg" alt="Lab Research 2" /></a>
+                    <header>
+                        <h3>Field Experiment</h3>
+                    </header>
+                </article>
+            </div>
+            <div class="col-4 col-12-mobile">
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/labteam.jpeg" alt="Research Visualization 1" /></a>
+                    <header>
+                        <h3>Kick-off Meeting Project with Philippines</h3>
+                    </header>
+                </article>
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/labteam2.jpeg" alt="Lab Research 3" /></a>
+                    <header>
+                        <h3>Meeting and Discussion</h3>
+                    </header>
+                </article>
+            </div>
+            <div class="col-4 col-12-mobile">
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/tokyo.jpeg" alt="Lab Research 4" /></a>
+                    <header>
+                        <h3>Deep Learning in Action</h3>
+                    </header>
+                </article>
+                <article class="item">
+                    <a href="#" class="image fit"><img src="images/avss.jpeg" alt="AI Model Training" /></a>
+                    <header>
+                        <h3>AVSS 2024 Organizing Committee</h3>
+                    </header>
+                </article>
+            </div>
+        </div>
 
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
-						</div>
+    </div>
 					</section>
 
 			</div>
 
 		<!-- Footer -->
 			<div id="footer">
-
 				<!-- Copyright -->
 					<ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
-
 			</div>
 
 		<!-- Scripts -->

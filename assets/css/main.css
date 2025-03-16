@@ -1989,6 +1989,7 @@ input, select, textarea {
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			/* font-size: 1.0em; */
 		}
 
 			.item header h3 {
@@ -2248,7 +2249,10 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
+				/* background-color: #ffff; */
 				background-image: url("../../images/banner.jpg");
+				/* background-image: url("../../images/yzupink.jpeg"); */
+				/* background-image: url("../../images/yzupink.jpeg"); */
 			}
 
 			#main > section.two {
@@ -2631,3 +2635,135 @@ input, select, textarea {
 				}
 
 	}
+
+/* newadd css// */
+
+
+	#gallery {
+		text-align: center;
+		padding: 50px 0;
+	}
+	
+	#gallery .image.fit img {
+		width: 100%;
+		height: auto;
+		border-radius: 8px;
+		transition: transform 0.3s ease-in-out;
+	}
+	
+	#gallery .image.fit img:hover {
+		transform: scale(1.05);
+	}
+	
+	/* Team Section Styling */
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-photo {
+    width: 120px; /* Adjust size as needed */
+    height: 120px;
+    border-radius: 50%; /* Makes it a circle */
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #ddd; /* Optional border */
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Team Section Styling */
+.team-category {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-category h3 {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-photo {
+    width: 120px; /* Adjust size as needed */
+    height: 120px;
+    border-radius: 50%; /* Makes it a circle */
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #ddd; /* Optional border */
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.4em;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Responsive Fix */
+@media screen and (max-width: 768px) {
+    .team-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-category h3 {
+        font-size: 1.5em;
+    }
+}
+
+.publication-category h3 {
+    text-align: left; /* Align section headings to the left */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.publication-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left; /* Ensure the list aligns to the left */
+}
+
+.publication-list li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.research-category h3 {
+    text-align: left; /* Align section heading to the left */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.research-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left; /* Ensure the list aligns to the left */
+}
+
+.research-list li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+}
