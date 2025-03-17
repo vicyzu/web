@@ -1,0 +1,203 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+/* Reset and Box-Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #666;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: #444;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 2em;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+strong, b {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+    transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+}
+
+a:hover {
+    color: #E27689;
+    border-bottom-color: transparent;
+}
+
+/* Containers */
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 20px;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* Image Styling */
+.image img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}
+
+/* Team Section */
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #ddd;
+}
+
+.team-member h3 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .team-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Publication Section */
+.publication-category h3 {
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.publication-list {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.publication-list li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Research Section */
+.research-category h3 {
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.research-list {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.research-list li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: left;
+}
+
+.contact-section p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.contact-section a {
+    color: #E27689;
+    text-decoration: underline;
+}
+
+.contact-section a:hover {
+    text-decoration: none;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    background-color: #dce3e2;
+    padding: 3em 0 4em 0;
+    font-size: 0.8em;
+}
+
+#footer .copyright {
+    margin: 0;
+}
+
+#footer .copyright li {
+    display: inline-block;
+    border-left: solid 1px rgba(128, 128, 128, 0.35);
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+}
+
+#footer .copyright li:first-child {
+    border-left: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
