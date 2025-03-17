@@ -2248,13 +2248,13 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				color: #dae4cd; /* Change to white for better contrast */
+				color: #e4e7df; /* Change to white for better contrast */
    				font-weight: bold;
     			text-shadow: 1px 1px 4px rgba(0, 0, 0.8, 0.8); /* Adds readability against bright backgrounds */
 				background-color: #81918E;
 				/* background-color: #ffff; */
 				/* background-image: url("../../images/banner.jpg"); */
-				background-image: url("../../images/yzupink.jpeg");
+				background-image: url("../../images/yzupink.JPG");
 				/* background-image: url("../../images/simon.jpg"); */
 			}
 
